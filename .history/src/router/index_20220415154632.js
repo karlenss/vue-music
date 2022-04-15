@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home'
+import Home from '../views/Home.vue'
 import Layout from '../views/Layout.vue'
 
 Vue.use(VueRouter)
@@ -33,8 +33,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes,
-  linkActiveClass: "active"
+  routes
 })
 
 export default router
